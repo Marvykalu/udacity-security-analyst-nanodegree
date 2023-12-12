@@ -1,6 +1,6 @@
 # Security Analyst (Udacity Nanodegree)
 
-A security analyst is responsible for protecting an organization's information, property, and people. The primary roles include Prevention, Detection, Recovery from securty challenges. 
+A security analyst is responsible for protecting an organization's information, property, and people. The primary roles include prevention, detection, and recovery from securty challenges. 
 
 ## Prevention
 
