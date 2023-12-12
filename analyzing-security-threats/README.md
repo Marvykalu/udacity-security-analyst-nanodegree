@@ -1,0 +1,1 @@
+This folder contains my work on exploring current threat landscape, identifying both threats and threat actors that organization face, the OWASP Top 10 and the threats they pose. View the project folder to see how I applied these kowledge to assess threats and suggest mitigations for a larger company.
