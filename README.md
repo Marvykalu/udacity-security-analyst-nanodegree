@@ -18,4 +18,4 @@ Recovery activities involve not only restoring operations after an instant but a
 
 Additionally, securty analysts are often required to fulfill secondary roles to inform critical business functions such as consulting and training. They are subject-matter experts on security related issues, and on policies and procedures. They would ofen lead training and awareness efforts by creating programs to educate employees on the use of security protocols. 
 
-The security analyst is a vtal multidisciplanry role that demands a diverse range of skills. Stay tuned as I work you through processes, tools and techniques for protecting an organization's assess.
+The security analyst is a vital multidisciplanry role that demands a diverse range of skills. Stay tuned as I work you through processes, tools and techniques for protecting an organization's assess.
