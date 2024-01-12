@@ -51,7 +51,7 @@ to or from the same external address.
 
 ## Outline
 
-- Analyse Alerts from the Intrusion Detection System using **Sguil**
+- Analyse Alerts from the Intrusion Detection System using **Sguil** see [IDS-snort-alert-analysis]( mm)Deliverables to see project output.
 
 - Live Packet Capture with **Tcpdump**
 
