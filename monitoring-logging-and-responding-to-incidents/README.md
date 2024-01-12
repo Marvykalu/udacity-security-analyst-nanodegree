@@ -23,13 +23,18 @@ Sorry I did not have time to put together more info! Good luck!
 -j
 
 ## TO DO
-Analyse alerts in the Intrusion Detection System, set up SIEM to collect and analyse date, monitor systems for suspicious activity, document evidence and follow the incident handling procedure to respond to any issues you uncover.
+My job include to analyse alerts in the Intrusion Detection System, set up SIEM to collect and analyse date, monitor systems for suspicious activity, document evidence and follow the incident handling procedure to respond to any issues you uncover.
 
-Tasks include:
+## Job specification
 
-Analyse Alerts from the Intrusion Detection System using Sguil
-Live Packet Capture
-Read and analyse Packet Capture
-Create Snort rules
-Use Splunk to Collect and Analyse Data
-Use the Incident Response Playbook to Determine the Next Steps.
+- Analyse Alerts from the Intrusion Detection System using **Sguil**
+
+- Live Packet Capture with **Tcpdump**
+
+- Read and analyse Packet Capture with **Wireshark**
+
+- Create new **Snort** rules to detect all alerts 
+
+- Use **Splunk** to Collect and Analyse Data
+
+- Use the **Incident Response Playbook** to determine the next Steps: Containment, Analysis and Recovery
