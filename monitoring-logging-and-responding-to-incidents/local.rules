@@ -1,0 +1,1 @@
+alert tcp any any  -> any any (msg:"Snort rule test"; content:"application/x-www-form-url-encoded"; content:"POST"; classtype:policy-violation; sid:1000000500; rev:1; metadata:created_at 2011_12_20, updated_at 2019_12_20;)
