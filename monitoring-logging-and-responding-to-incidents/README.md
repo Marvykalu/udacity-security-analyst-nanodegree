@@ -32,13 +32,13 @@ monitoring and analyzing alerts from the host-based logs and network logs. Given
 both the host hardware as well as the applications running on that hardware, using host-based logs and
 network packets, we may classify whether that a threat is a True positive or not.
  
-**Snort**:
+#### Snort:
 
 Starting with network IDS (Intrusion Detection System) logs (Snort) which provide data for packets
 that match threat signatures, the question is: are there suspicious connections? If yes, identify the
 IP address and ports involved in the connections.
  
-**Host logs**:
+#### Host logs: 
 
 If there's an external IP address, pivot to the DNS (Domain Name System) logs and check for any
 DNS replies that included the external IP address. DNS logging can help you monitor the data
