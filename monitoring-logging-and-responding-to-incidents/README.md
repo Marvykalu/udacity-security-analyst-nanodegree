@@ -57,7 +57,7 @@ to or from the same external address.
 
 - Read and analyse Packet Capture with **Wireshark**
 
-- Create new **Snort** rules to detect all alerts. [Local.rules](oo) file contains the created rules.
+- Create new **Snort** rules to detect all alerts. See [local.rules](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/monitoring-logging-and-responding-to-incidents/local.rules) for the snort rules. 
 
 - Use **Splunk** to Collect and Analyse Data
 
