@@ -2,17 +2,24 @@
 
 ## Scenario
 
-Jacqui, the security analyst for Yoyodyne's satellite office in Kalamazoo, is taking a much-needed vacation. Corporate has asked you to fill in for her while she enjoys some time on the beach.
+Jacqui, the security analyst for Yoyodyne's satellite office in Kalamazoo, is taking a much-needed vacation. Corporate has asked me to fill in for her while she enjoys some time on the beach.
 
 ### A message in my inbox reads:
 
 From: jacqui@kz.yoyodyne
-To: you@hq.yoyodyne
+
+To: me@hq.yoyodyne
+
 Subject: hope this helps!
+
 I found a network diagram for you. A couple years old, but mostly up-to-date!
+
 I jotted down some notes on the usual incident handling processes, at least here in the KZ office.
+
 I launched a honeypot earlier this week. I meant to exclude it from the alerts, but what are the chances that any bad actors would have found it already?
+
 Sorry I did not have time to put together more info! Good luck!
+
 -j
 
 ## TO DO
