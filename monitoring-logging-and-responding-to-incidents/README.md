@@ -14,6 +14,8 @@ The attackers, observing the compromised system, send commands to the Trojan. Th
 
 The use of a Command and Control infrastructure allows attackers to adapt their tactics, techniques, and procedures (TTPs) dynamically, making detection and mitigation more challenging for defenders. Security measures often involve identifying and blocking C2 communications, isolating compromised systems, and removing the malicious payloads.
 
+In this project, we will see an example of Command and Control activity.
+
 # Project Details
 This project "Intrusion and Detection Systems" is part of my Security Analyst Nanodegree curriculum at Udacity.
 ## Scenario
