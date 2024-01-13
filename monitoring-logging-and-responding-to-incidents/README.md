@@ -1,5 +1,21 @@
 # Monitoring, Logging and Responding to Incidents
 
+## Example Scenario
+
+Imagine a scenario where a user unknowingly downloads a seemingly innocuous file from a malicious website. This file is a Trojan Emotet that, when executed, establishes a connection to a remote Command and Control server controlled by attackers. The compromised system now periodically communicates with the C2 server, awaiting further instructions.
+
+The attackers, observing the compromised system, send commands to the Trojan. These commands might include:
+
+- **Download and Execute Additional Malware**: The Trojan is instructed to download and execute more malicious files, expanding the scope of the attack.
+
+- **Data Exfiltration**: The compromised system is directed to send sensitive data, such as login credentials or corporate documents, back to the C2 server.
+
+- **Remote Access**: The attackers may use the C2 connection to gain remote access to the compromised system, effectively controlling it as if they were physically present.
+
+The use of a Command and Control infrastructure allows attackers to adapt their tactics, techniques, and procedures (TTPs) dynamically, making detection and mitigation more challenging for defenders. Security measures often involve identifying and blocking C2 communications, isolating compromised systems, and removing the malicious payloads.
+
+# Project Details
+This project "Intrusion and Detection Systems" is part of my Security Analyst Nanodegree curriculum at Udacity.
 ## Scenario
 
 Jacqui, the security analyst for Yoyodyne's satellite office in Kalamazoo, is taking a much-needed vacation. Corporate has asked me to fill in for her while she enjoys some time on the beach.
