@@ -80,5 +80,3 @@ to or from the same external address.
 - Use **Splunk** to Collect and Analyse Data
 
 - Use the **Incident Response Playbook** to determine the next Steps: Containment, Analysis and Recovery
-
-Please go to Deliverables to see project output.
