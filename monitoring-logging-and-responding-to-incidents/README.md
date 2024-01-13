@@ -71,7 +71,7 @@ to or from the same external address.
 
 - Analyse Alerts from the Intrusion Detection System using **Sguil**: Please go to [IDS-snort-alert-analysis](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/monitoring-logging-and-responding-to-incidents/IDS-snort-alert-analysis.pdf) to follow analysis.
 
-- Live Packet Capture with **Tcpdump**: Multiple Snort alerts were triggered by a single DNS request. We have identified the DNS request in Sguil that triggered the multiple alerts and recorded the same request from the Security Onion VM using tcpdump. See [dns.pcap]() for captured packet. 
+- Live Packet Capture with **Tcpdump**: Multiple Snort alerts were triggered by a single DNS request. We have identified the DNS request in Sguil that triggered the multiple alerts and recorded the same request from the Security Onion VM using tcpdump. See [dns.pcap](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/monitoring-logging-and-responding-to-incidents/dns.pcap) for captured packet. 
 
 
 - Read and analyse Packet Capture with **Wireshark**
