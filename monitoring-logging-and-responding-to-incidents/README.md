@@ -78,6 +78,6 @@ to or from the same external address.
 
 - Create new **Snort** rules to detect all alerts. See [local.rules](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/monitoring-logging-and-responding-to-incidents/local.rules) for the snort rules. Note, the rule was tested and observed to generate more than 3 alerts.
 
-- Use **Splunk** to Collect and Analyse Data
+- Use **Splunk** to Collect and Analyse Data. Please see [host-log-analysis.pdf](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/monitoring-logging-and-responding-to-incidents/host-log-analysis.pdf) for output.
 
 - Use the **Incident Response Playbook** to determine the next Steps: Containment, Analysis and Recovery
