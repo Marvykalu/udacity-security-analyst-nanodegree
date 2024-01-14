@@ -80,4 +80,4 @@ to or from the same external address.
 
 - Use **Splunk** to Collect and Analyse Data. Please see [host-log-analysis.pdf](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/monitoring-logging-and-responding-to-incidents/host-log-analysis.pdf) for output.
 
-- Use the **Incident Response Playbook** to determine the next Steps: Containment, Analysis and Recovery
+- Use the **Incident Response Playbook** to determine the next Steps: Containment, Analysis and Recovery.Please go to [Template.docx](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/monitoring-logging-and-responding-to-incidents/Ticket.docx) to see the nest steps.
