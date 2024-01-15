@@ -1,7 +1,5 @@
 # Planning for Security Controls
 
-Organizations 
-
 In this project, I assume the role of an Information Security Analyst for  COMPANY_A. Working for the infrastructure team, I am the only staff member whose role is dedicated solely to information security. 
 
 #### Primary Responsibilities
@@ -33,7 +31,7 @@ After my dazzling NIST report, the CIO is asked me to provide feedback on additi
  
 - Please see [security-plan.docx](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/planning-for-security-control/security-plan.docx), for my recommended physical and logical controls to enhance the security posture of COMPANY_A.
 
-- Please see [Remote_Access_Policy.docx](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/planning-for-security-control/remote-access-policy.docx) and Password_Protection_Policy.docx](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/planning-for-security-control/password-protection-policy.docx) for customized policies for use by COMPANY_A.
+- Please see [Remote_Access_Policy.docx](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/planning-for-security-control/remote-access-policy.docx) and [Password_Protection_Policy.docx](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/planning-for-security-control/password-protection-policy.docx) for customized policies for use by COMPANY_A.
 
 ## TASK 3: Security Design
 
