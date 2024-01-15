@@ -1,14 +1,18 @@
-# Threat Analysis
+# Analyzing Security Threats
 
 ## SCENARIO
 
-Udajuicer is the largest juice shop in the world. They’ve amassed millions with shops all around the world without a reliance on technology. The owner Manu Juicer has technophobia and severe distrust of technology, so all his shops operate on a cash-and-carry model. His irrational fear surprisingly hasn’t hurt the store, and many people have grown to love the franchise for its simplicity. The business was booming until Covid-19 hit. Stubborn and not wanting to adapt to the current climate, Manu tried all sorts of gimmicks and deals to drive foot traffic to his business but wasn’t successful. Begrudgingly he accepted his predicament, and it was time to embrace technology.
+Udajuicer is the largest juice shop in the world. Without a reliance, the owner of Udajuicer have amassed millions with shops all around the world. The business was booming until Covid-19 hit. Stubborn and not wanting to adapt to the current climate, Manu tried all sorts of gimmicks and deals to drive foot traffic to his business but wasn’t successful. Begrudgingly he accepted his predicament, and it was time to embrace technology.
 
-Manu left it to his internal business team to come up with an online application where customers can place orders for delivery/pickup. Udajuicer’s business team, left with very vague instructions on how to build an application, had no idea where to begin. In a pickle, they launched Craigslist and looked for someone that would be able to build them their juice shop application. Since no one at the company had much computer expertise or an internal technology department, they were quite inept at identifying qualified candidates. They eventually settled on a newbie Chad, who fleeced their money and created an insecure application.
+Manu left it to his internal business team to come up with an online application where customers can place orders for delivery/pickup. Udajuicer’s business team, left with very vague instructions on how to build an application, eventually settled on a newbie Chad, who fleeced their money and created an insecure application.
 
 Excitement was in the air as Udajuicer finally had its flagship product! Udajuicer proceeded to test the application out in beta for a week before production. Unfortunately, the site would constantly go down, and they weren’t sure what the issue was. They reached out to Chad once again to troubleshoot but weren’t able to identify what was going on, as Chad assured them it was nothing on his end. Paranoid Manu thought it was his rival Super Smoothies hacking and taking down his application.
 
-Wanting to get to the bottom of the issue, he reached out to SecureCorp, the world-renown cybersecurity consulting firm. SecureCorp deploys you, a security analyst, to get to the bottom of the issue and find out why the Juice Shop site keeps going down. Your job will consist of building a threat model for Manu’s website. Using the internal threat model template provided, you will go through the process of helping Manu mitigate his current issue and build a secure application.
+Wanting to get to the bottom of the issue, he reached out to SecureCorp, a cybersecurity consulting firm. SecureCorp has deployed me, a security analyst, to get to the bottom of the issue and find out why the Juice Shop site keeps going down. 
+
+## TO DO:
+
+My job will consist of building a threat model for Manu’s website. I will help Manu mitigate his current issue and build a secure application.
 
 ## Section 1 - ASSESSMENT
 
@@ -50,6 +54,35 @@ The first vulnerability I want to exploit is on the login page of the website. T
 ### Task 2: XSS - Cross-Site Scripting
 
 The second vulnerability I want to exploit is after I’ve logged into the site. I want to exploit an XSS vulnerability in the search bar, attempting an arbitrary command that will render an alert with the value “Hacked”.
+
+See [vulnerability assessment](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/analyzing-security-threats/vulnerability-assessment.pdf) for my findings.
+
+## Section 3: Risk Analysis
+
+
+I identified the risks in the web application, and applied score to each risks, as well as the rationale. See [risk-analysis-report](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/analyzing-security-threats/risk-analysis.pdf) for output.
+
+Ranking show where Udajuicer’s resources should be allocated first as opposed to trying to tackle everything at once.
+
+## Section 4: Mitigation Plan
+
+I’ve broken down all the risks and in what order Udajuicer should mitigate them. I will build out the mitigation plan and get Udajuicer back up and running! See [mitigation plan](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/analyzing-security-threats/mitigation-plan.pdf) for output.
+
+### Task 1: Secure Architecture
+
+Utilizing draw.io I designed a far more secure architecture for Manu to implement in getting the Juice Shop back up and running. 
+
+## Task 2: Mystery Attack Mitigation
+
+I will tackle Manu's most pressing issue and implement a solution to mitigate the attack on website and prevent further attacks of this type.
+
+Task 3: SQL Injection Mitigation
+
+Here I described how to implement mitigation plan for injection attacks. 
+
+Task 4: XSS Mitigation
+
+The last issue I fixed is XSS attack. I described mitigations ad how to implement it to avoid future attacks of this type.
 
 
 
