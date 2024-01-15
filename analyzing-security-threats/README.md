@@ -10,7 +10,7 @@ Excitement was in the air as Udajuicer finally had its flagship product! Udajuic
 
 Wanting to get to the bottom of the issue, he reached out to SecureCorp, the world-renown cybersecurity consulting firm. SecureCorp deploys you, a security analyst, to get to the bottom of the issue and find out why the Juice Shop site keeps going down. Your job will consist of building a threat model for Manu’s website. Using the internal threat model template provided, you will go through the process of helping Manu mitigate his current issue and build a secure application.
 
-## TASK - ASSESSMENT
+## Section 1 - ASSESSMENT
 
 Section 1: Assessment
 It’s time to get to work! You’ve arrived at one of Udajuicer’s headquarters located in Miami and are shocked at the lack of technology. You ponder how in the world this is the largest juice shop without ever using computers or relying on technology. After the initial shock, you’re ready to get back on track and get to work. Manu, the eccentric owner, takes it upon himself to work with you directly to make sure you have everything you need. You first request an architecture diagram of the application and logs from right before the application went down. At a quick glance, you notice the woefully designed architecture and buckle up for a long day, all the whilst Manu is in your ear talking about Super Smoothies evil plot to take down his franchise.
@@ -32,10 +32,24 @@ I built a threat model diagram showing the flow of data using OWASP Threat Drago
 
 ### Part 4: Threat Analysis
 
-Let us now use our knowledge of the few insecurities in Udajuicer’s architecture to identify the cause of the website down time. Again see Threat Analysis section of [Threat-report-Assessment.pdf](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/analyzing-security-threats/Threat-Report-Assessment.pdf) for findings.
+Let us now use our knowledge of the few insecurities in Udajuicer’s architecture to identify the cause of the website down time. Again see Threat Analysis section of [Threat-report-Assessment.pdf](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/analyzing-security-threats/Threat-Report-Assessment.pdf) for my findings.
 
 
 ### Part 5: Threat Actor Analysis
 
-The final part of my assessment consists of me trying to identify the threat actor -                                                                                                                           who would possibly want to take down the Juice Shop? You can find my dining in [Threat-Report](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/analyzing-security-threats/Threat-Report-Assessment.pdf).
+The final part of my assessment consists of me trying to identify the threat actor -                                                                                                                           who would possibly want to take down the Juice Shop? You can view my finings in [Threat-Report](https://github.com/Marvykalu/udacity-security-analyst-nanodegree/blob/main/analyzing-security-threats/Threat-Report-Assessment.pdf).
+
+## Section 2: Vulnerability Testing
+
+I’ve identified the initial attack and shortcomings of the application setup. Now I have to continue with a deeper analysis of the application to see if I can find more vulnerabilities. 
+
+### Task 1: SQL Injection
+
+The first vulnerability I want to exploit is on the login page of the website. To see if it is success-title to SQL Injection.  If it is, I will gain root access into the website. See [vulnerability testing]() for my findings. 
+
+### Task 2: XSS - Cross-Site Scripting
+
+The second vulnerability I want to exploit is after I’ve logged into the site. I want to exploit an XSS vulnerability in the search bar, attempting an arbitrary command that will render an alert with the value “Hacked”.
+
+
 
